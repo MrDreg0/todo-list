@@ -1,0 +1,54 @@
+body {
+  margin: 0 auto;
+  padding: 10px;
+  width: 700px;
+}
+h1 {
+  text-align: center;
+}
+.todo-list {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-wrapper {
+  order: 2;
+}
+form {
+  width: 200px;
+}
+form input {
+  margin-bottom: 10px;
+}
+ul {
+  margin: 0;
+  list-style: none;
+}
+ul li {
+  padding-left: 30px;
+  position: relative;
+}
+li button {
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+li input:not([type='checkbox']) {
+  display: none;
+  width: 100%;
+}
+li input.show {
+  display: block;
+}
+li input[type='checkbox'] {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+svg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
